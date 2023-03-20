@@ -1,0 +1,135 @@
+/**
+ * @name ComfyDark
+ * @author oogooro
+ * @version 1.0.0
+ * @description Very comfy dark theme for BetterDiscord
+ * @source https://github.com/oogooro/better-discord
+ */
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); */
+
+.theme-dark {
+	--main-accent: #ff00df;
+
+	--background-primary: #171717;
+	--background-secondary: rgb(18, 18 ,18);
+	--background-secondary-alt: #151515;
+	--background-tertiary: rgb(10, 10, 10);
+	--background-accent: rgb(38, 38, 38);
+	--background-floating: rgba(16, 16, 16, 0.92);
+	--background-nested-floating: rgba(20, 20, 20, 0.96);
+	--scrollbar-thin-thumb: rgb(12, 12, 12);
+	--scrollbar-auto-thumb: rgb(12, 12, 12);
+	--text-normal: #fff;
+	--scrollbar-auto-track: #111;
+	--channels-default: #ccc;
+	--background-message-hover: rgba(0, 0, 0, 0.2137);
+	--channeltextarea-background: #222;
+	--text-link: var(--main-accent);
+	--textbox-markdown-syntax: var(--main-accent);
+	--interactive-muted: #333;
+	--font-primary: 'gg sans', 'Noto Sans JP', sans-serif;
+	--font-display: 'gg sans', 'Noto Sans JP', sans-serif;
+
+	--search-popout-option-fade: none;
+	--search-popout-option-fade-hover: none;
+
+	--background-modifier-hover: rgba(31, 31, 31, 0.4);
+    --background-modifier-active: rgba(31, 31, 31, 0.6);
+	--background-modifier-selected: rgba(31, 31, 31, 0.6);
+   	--background-modifier-accent: rgba(31, 31, 31, 0.48);
+}
+
+/* SEARCH */
+.searchFilter-2UfsDk {
+	background-color: var(--background-secondary-alt) !important;
+}
+
+.searchAnswer-23w-CH {
+	background-color: var(--background-secondary-alt) !important;
+}
+
+.container-2McqkF {
+	background-color: var(--background-secondary) !important;
+}
+
+.queryContainer-ZunrLZ {
+	background-color: var(--background-secondary-alt) !important;
+}
+
+li.option-ayUoaq::after {
+	content: '' !important;
+}
+
+/* FRIENDS */
+.peopleColumn-1wMU14 {
+	background-color: var(--background-primary) !important;
+}
+
+.container-ZMc96U {
+	background-color: var(--background-secondary) !important;
+}
+.theme-dark .children-3xh0VB:after {
+	background: none;
+}
+
+.outer-2JOHae.interactive-2zD88a:hover {
+	background-color: var(--background-secondary-alt);
+}
+
+/* SLASH COMMANDS */
+.autocompleteInner-y1mjDl {
+	background-color: var(--background-secondary) !important;
+}
+
+.categoryHeader-OpJ1Ly {
+	background-color: var(--background-secondary) !important;
+}
+
+.selected-3H3-RC {
+	background-color: var(--background-secondary-alt) !important;
+}
+
+/* POPUPS */
+.root-g14mjS {
+	background-color: var(--background-secondary-alt) !important;	
+}
+
+.header-1zd7se {
+	background-color: var(--background-secondary) !important;	
+}
+
+.content-2hZxGK {
+	background-color: var(--background-secondary) !important;	
+}
+
+.footer-31IekZ {
+	background-color: var(--background-secondary) !important;	
+}
+
+/* POPUP MESSAGES (pin, delete etc.)*/
+.message-G6O-Wv {
+	background-color: var(--background-primary) !important;
+}
+
+/* FORUM CHANNELS */
+.list-3FIpnh.auto-2K3UW5.scrollerBase-_bVAAt {
+	background-color: var(--background-secondary) !important;
+}
+
+.content-2a4AW9 {
+	background-color: var(--background-secondary) !important;
+}
+
+/* SERVER HOMEPAGE */
+.homeContainer-r4Hvv1 {
+	background-color: var(--background-secondary) !important;
+}
+
+/* SERVER BANNER */
+.animatedContainer-2laTjx {
+	background-color: var(--background-secondary-alt) !important;
+}
