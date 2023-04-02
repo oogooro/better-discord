@@ -1,7 +1,7 @@
 /**
  * @name ComfyDark
  * @author oogooro
- * @version 1.0.0
+ * @version 1.1.0
  * @description Very comfy dark theme for BetterDiscord
  * @source https://github.com/oogooro/better-discord
  */
@@ -15,7 +15,7 @@
 	--main-accent: #ff00df;
 
 	--background-primary: #171717;
-	--background-secondary: rgb(18, 18 ,18);
+	--background-secondary: rgb(18, 18, 18);
 	--background-secondary-alt: #151515;
 	--background-tertiary: rgb(10, 10, 10);
 	--background-accent: rgb(38, 38, 38);
@@ -30,17 +30,18 @@
 	--channeltextarea-background: #222;
 	--text-link: var(--main-accent);
 	--textbox-markdown-syntax: var(--main-accent);
-	--interactive-muted: #333;
+	--interactive-muted: #555;
 	--font-primary: 'gg sans', 'Noto Sans JP', sans-serif;
 	--font-display: 'gg sans', 'Noto Sans JP', sans-serif;
+	--input-background: rgb(14, 14, 14);
 
 	--search-popout-option-fade: none;
 	--search-popout-option-fade-hover: none;
 
-	--background-modifier-hover: rgba(31, 31, 31, 0.4);
-    --background-modifier-active: rgba(31, 31, 31, 0.6);
-	--background-modifier-selected: rgba(31, 31, 31, 0.6);
-   	--background-modifier-accent: rgba(31, 31, 31, 0.48);
+	--background-modifier-hover: rgba(34, 34, 34, 0.4);
+	--background-modifier-active: rgba(36, 36, 36, 0.4);
+	--background-modifier-selected: rgba(36, 36, 36, 0.4);
+	--background-modifier-accent: rgba(36, 36, 36, 0.4);
 }
 
 /* SEARCH */
@@ -72,6 +73,7 @@ li.option-ayUoaq::after {
 .container-ZMc96U {
 	background-color: var(--background-secondary) !important;
 }
+
 .theme-dark .children-3xh0VB:after {
 	background: none;
 }
@@ -94,20 +96,20 @@ li.option-ayUoaq::after {
 }
 
 /* POPUPS */
-.root-g14mjS {
-	background-color: var(--background-secondary-alt) !important;	
+.root-1CAIjD {
+	background-color: var(--background-secondary-alt) !important;
 }
 
 .header-1zd7se {
-	background-color: var(--background-secondary) !important;	
+	background-color: var(--background-secondary) !important;
 }
 
 .content-2hZxGK {
-	background-color: var(--background-secondary) !important;	
+	background-color: var(--background-secondary) !important;
 }
 
-.footer-31IekZ {
-	background-color: var(--background-secondary) !important;	
+.footer-IubaaS {
+	background-color: var(--background-secondary) !important;
 }
 
 /* POPUP MESSAGES (pin, delete etc.)*/
@@ -116,11 +118,7 @@ li.option-ayUoaq::after {
 }
 
 /* FORUM CHANNELS */
-.list-3FIpnh.auto-2K3UW5.scrollerBase-_bVAAt {
-	background-color: var(--background-secondary) !important;
-}
-
-.content-2a4AW9 {
+.container-3wLKDe {
 	background-color: var(--background-secondary) !important;
 }
 
@@ -132,4 +130,22 @@ li.option-ayUoaq::after {
 /* SERVER BANNER */
 .animatedContainer-2laTjx {
 	background-color: var(--background-secondary-alt) !important;
+}
+
+/* SERVER PERSONALIZATION */
+.container-2IKOsH {
+	background-color: var(--background-secondary) !important;
+}
+
+.scrollerContainer-y16Rs9 {
+	background-color: var(--background-secondary) !important;
+}
+
+/* CHANNEL SELECT thingy */
+.pageBody-23bo4p {
+	background-color: var(--background-secondary) !important;
+}
+
+.directoryModal-YJsOMv {
+	background-color: var(--background-secondary) !important;
 }
