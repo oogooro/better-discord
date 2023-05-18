@@ -1,8 +1,8 @@
 /**
  * @name ComfyDark
  * @author oogooro
- * @version 1.1.0
- * @description Very comfy dark theme for BetterDiscord
+ * @version 1.2.0
+ * @description Very comfy dark theme for BetterDiscord and Vencord
  * @source https://github.com/oogooro/better-discord
  */
 
@@ -42,6 +42,12 @@
 	--background-modifier-active: rgba(36, 36, 36, 0.4);
 	--background-modifier-selected: rgba(36, 36, 36, 0.4);
 	--background-modifier-accent: rgba(36, 36, 36, 0.4);
+
+	--font-code: source code pro, Consolas, monospace;
+}
+
+code {
+	font-size: 15px !important;
 }
 
 /* SEARCH */
