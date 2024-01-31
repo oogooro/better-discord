@@ -1,7 +1,7 @@
 /**
  * @name ComfyDark
  * @author oogooro
- * @version 1.2.1
+ * @version 2.0.0
  * @description Very comfy dark theme for BetterDiscord and Vencord
  * @source https://github.com/oogooro/better-discord
  */
@@ -94,11 +94,11 @@ li.option-ayUoaq::after {
 }
 
 /* SLASH COMMANDS */
-.autocompleteInner-y1mjDl {
+.autocompleteInner_a0e6a1 {
 	background-color: var(--background-secondary) !important;
 }
 
-.categoryHeader-OpJ1Ly {
+.categoryHeader_f97a5f {
 	background-color: var(--background-secondary) !important;
 }
 
@@ -107,19 +107,19 @@ li.option-ayUoaq::after {
 }
 
 /* POPUPS */
-.root-1CAIjD {
+.root_a28985 {
 	background-color: var(--background-secondary-alt) !important;
 }
 
-.header-1zd7se {
+.header__6d5ea {
 	background-color: var(--background-secondary) !important;
 }
 
-.content-2hZxGK {
+.content__764ce {
 	background-color: var(--background-secondary) !important;
 }
 
-.footer-IubaaS {
+.footer__89240 {
 	background-color: var(--background-secondary) !important;
 }
 
