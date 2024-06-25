@@ -129,8 +129,24 @@ li.option-ayUoaq::after {
 }
 
 /* FORUM CHANNELS */
-.container-3wLKDe {
+.container_a6d69a {
+	background-color: var(--background-primary) !important;
+}
+
+.container_d331f1 {
 	background-color: var(--background-secondary) !important;
+}
+
+.container_e44302 {
+	background-color: var(--background-secondary) !important;
+}
+
+.header_a6d69a {
+	background-color: var(--background-secondary) !important;
+}
+
+.children_e44302::after {
+	background: none !important;
 }
 
 /* SERVER HOMEPAGE */
