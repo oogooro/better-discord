@@ -180,3 +180,8 @@ li.option-ayUoaq::after {
 .directoryModal-YJsOMv {
 	background-color: var(--background-secondary) !important;
 }
+
+/* LINKS */
+.content_ed23b8 a {
+	color: var(--text-link);
+}
