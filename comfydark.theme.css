@@ -1,8 +1,8 @@
 /**
  * @name ComfyDark
  * @author oogooro
- * @version 2.0.0
- * @description Very comfy dark theme for BetterDiscord and Vencord
+ * @version 2.1.0
+ * @description Very comfy dark theme for Vencord
  * @source https://github.com/oogooro/better-discord
  */
 
@@ -13,6 +13,8 @@
 
 .theme-dark {
 	--main-accent: #ff00df;
+	--main-accent-dimm: #d000db;
+	--bg-brand: var(--main-accent-dimm);
 
 	--background-primary: #171717;
 	--background-secondary: rgb(18, 18, 18);
@@ -107,7 +109,7 @@ li.option-ayUoaq::after {
 }
 
 /* POPUPS */
-.rootWithShadow_f9a4c9 {
+.rootWithShadow__49fc1 {
 	background-color: var(--background-secondary-alt) !important;
 }
 
@@ -119,7 +121,7 @@ li.option-ayUoaq::after {
 	background-color: var(--background-secondary) !important;
 }
 
-.footer_b58b14 {
+.footer__49fc1 {
 	background-color: var(--background-secondary) !important;
 }
 
@@ -137,29 +139,29 @@ li.option-ayUoaq::after {
 }
 
 /* FORUM CHANNELS */
-.container_a6d69a {
+.container_f369db {
 	background-color: var(--background-primary) !important;
 }
 
-.container_d331f1 {
+.forumOrHome__49676 {
     background-color: var(--background-secondary) !important;
 }
 
-.container_e44302 {
-    background-color: var(--background-secondary) !important;
+.mainCard_f369db {
+	background-color: var(--background-secondary) !important;
 }
 
-.header_a6d69a {
-    background-color: var(--background-secondary) !important;
+.isOpen_faa96b {
+	background-color: var(--background-modifier-selected) !important;
 }
 
-.children_e44302::after {
+.children__9293f::after {
     background: none !important;
 }
 
 /* SERVER HOMEPAGE */
-.homeContainer-r4Hvv1 {
-	background-color: var(--background-secondary) !important;
+.auto_d125d2 {
+	background-color: var(--background-secondary-alt) !important;
 }
 
 /* SERVER BANNER */
@@ -167,28 +169,51 @@ li.option-ayUoaq::after {
 	background-color: var(--background-secondary-alt) !important;
 }
 
+.bannerImage_f37cb1::before {
+	background: none;
+}
+
 /* SERVER PERSONALIZATION */
-.scrollerContainer_c6b11b {
+.content_f75fb0 {
+	background-color: var(--background-secondary-alt) !important;
+}
+
+.container__9293f {
 	background-color: var(--background-secondary) !important;
 }
 
-.container_e44302 {
-	background-color: var(--background-secondary) !important;
-}
-
-.homeContainer_e85cee {
-	background-color: var(--background-secondary) !important;
+.pageBody__41ed7 {
+	background-color: var(--background-secondary-alt) !important;
 }
 
 .content_a7d72e {
 	background-color: var(--background-secondary) !important;
 }
 
-.container_c2efea {
+.channelRow_e4503a {
+	background-color: var(--background-secondary) !important;
+}
+
+.prompt__5d7c9 {
 	background-color: var(--background-secondary) !important;
 }
 
 /* LINKS */
 .content_ed23b8 a {
 	color: var(--text-link);
+}
+
+/* ACTIVITY STATUS TEXT */
+.activityText__5d473 {
+	color: #ccc !important;
+}
+
+/* VENCORD */
+.vc-addon-card {
+	background-color: var(--background-secondary);
+}
+
+/* SWITCHES */
+.checked__87bf1 {
+	background-color: var(--main-accent-dimm) !important;
 }
