@@ -1,7 +1,7 @@
 /**
  * @name ComfyDark
  * @author oogooro
- * @version 2.1.0
+ * @version 2.1.1
  * @description Very comfy dark theme for Vencord
  * @source https://github.com/oogooro/better-discord
  */
@@ -95,6 +95,11 @@ li.option-ayUoaq::after {
 	background-color: var(--background-secondary-alt);
 }
 
+/* ACTIVE NOW */
+.itemCard__7e549 {
+	background-color: var(--background-secondary);
+}
+
 /* SLASH COMMANDS */
 .autocompleteInner_a0e6a1 {
 	background-color: var(--background-secondary) !important;
@@ -144,7 +149,7 @@ li.option-ayUoaq::after {
 }
 
 .forumOrHome__49676 {
-    background-color: var(--background-secondary) !important;
+	background-color: var(--background-secondary) !important;
 }
 
 .mainCard_f369db {
@@ -156,12 +161,12 @@ li.option-ayUoaq::after {
 }
 
 .children__9293f::after {
-    background: none !important;
+	background: none !important;
 }
 
 /* SERVER HOMEPAGE */
 .auto_d125d2 {
-	background-color: var(--background-secondary-alt) !important;
+	background-color: var(--background-primary) !important;
 }
 
 /* SERVER BANNER */
@@ -175,7 +180,7 @@ li.option-ayUoaq::after {
 
 /* SERVER PERSONALIZATION */
 .content_f75fb0 {
-	background-color: var(--background-secondary-alt) !important;
+	background-color: var(--background-primary) !important;
 }
 
 .container__9293f {
@@ -183,7 +188,7 @@ li.option-ayUoaq::after {
 }
 
 .pageBody__41ed7 {
-	background-color: var(--background-secondary-alt) !important;
+	background-color: var(--background-primary) !important;
 }
 
 .content_a7d72e {
